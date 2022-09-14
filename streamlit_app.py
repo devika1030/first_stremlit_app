@@ -47,6 +47,8 @@ fruit_choice = streamlit.text_input('What fruit would you like to add?','Kiwi')
 # Let's put a pick list here so they can pick the fruit they want to include 
 add_my_fruit = streamlit.multiselect("What fruit would you like to have?:", list(my_fruit_list.index))
 
+streamlit.write('Thanks for adding ',add_my_fruit)
+
 #my_cur.execute("insert into fruit_load_list values('from streamlit')")
 
 
