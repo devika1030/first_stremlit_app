@@ -47,7 +47,7 @@ fruit_choice = streamlit.text_input('What fruit would you like to add?','Kiwi')
 #add_my_fruit = streamlit.multiselect("What fruit?:", list(my_data_rows.index))
 
 # Let's put a pick list here so they can pick the fruit they want to include 
-add_my_fruit = streamlit.multiselect("What fruit would you like to have?:", list(my_data_rows.index),['Avocado','Strawberries'])
+#add_my_fruit = streamlit.multiselect("What fruit would you like to have?:", list(my_data_rows.index))
 
 streamlit.write('Thanks for adding ', fruit_choice)
 
