@@ -45,6 +45,8 @@ streamlit.dataframe(my_data_rows)
 # Let's put a pick list here so they can pick the fruit they want to include 
 add_my_fruit = streamlit.multiselect("What fruit?:", list(my_data_rows.index))
 
+my_cur.execute("insert into fruit_load_list values('from streamlit')")
+
 
 
 
